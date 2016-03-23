@@ -5,7 +5,7 @@ import re
 import OpenSSL
 import scrapy
 
-
+#定义用于格式化输出工具
 class Tool:
     removeImg=re.compile('<img.*?>| {7}|')
     removeAddr=re.compile('<a.*?>|</a>')
